@@ -116,7 +116,7 @@ class GoldBarGameTest:
     @staticmethod
     def main():
         driver = PageActions.open_page()
-        print("------------------------")
+        print("#######################")
         print("Game Page Open")
         print("Test Started")
 
@@ -171,7 +171,7 @@ class GoldBarGameTest:
 
         # Output the result
         print("Test Completed")
-        print("------------------------")
+        print("#######################")
         print(f"Alert message is :{alert_message} ")
         print("Weighings list ")
         weighings = PageActions.get_weighings_list(driver)
