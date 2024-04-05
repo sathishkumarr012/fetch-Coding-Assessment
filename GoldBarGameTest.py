@@ -173,7 +173,7 @@ class GoldBarGameTest:
         print("Test Completed")
         print("------------------------")
         print(f"Alert message is :{alert_message} ")
-        print("Weighings list:")
+        print("Weighings list ")
         weighings = PageActions.get_weighings_list(driver)
         for i, element in enumerate(weighings):
             text = element.text
