@@ -61,16 +61,16 @@ This class contains the main method to execute the Gold Bar Challenge automation
 You will see output similar to below text, once it is started:
 
 ```
-------------------------
+#######################
 Game Page Open
 Test Started
 Test Completed
-------------------------
+#######################
 Alert message is :Yay! You find it! 
-Weighings list:
-Weighing 1: [0,1,2,3] > [4,5,6,7]
-Weighing 2: [7,6] < [4,5]
-Weighing 3: [7] < [6]
+Weighings list 
+Weighing 1: [0,1,2,3] < [4,5,6,7]
+Weighing 2: [0,1] > [3,2]
+Weighing 3: [2] < [3]
 Number of weighings: 3
-Fake Goldbar Number is 7
+Fake Goldbar Number is 2
 ```
